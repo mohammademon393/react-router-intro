@@ -4,7 +4,9 @@ import { Outlet } from 'react-router';
 const Root = () => {
     return (
         <div>
-            <header></header>
+            <header>
+                <h1>Root page fixed</h1>
+            </header>
             <Outlet></Outlet>
         </div>
     );

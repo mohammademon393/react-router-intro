@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router';
+import './UserDetails.css';
 
 const UserDetails = () => {
     const user = useLoaderData();

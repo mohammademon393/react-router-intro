@@ -16,6 +16,7 @@ const Post = ({ post }) => {
       <Link to={`/posts/${id}`}>
         <button>Show post</button>
       </Link>
+      
     </div>
   );};
 
